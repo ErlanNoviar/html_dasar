@@ -2,30 +2,49 @@
 <html>
 
 <head>
-    <title>Tugas 3 FSWD</title>
-    <link rel="stylesheet" href="../asset/css/style1.css" />
+    <title>Program HTML Sederhana</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
+
     <div class="header">
-        <div class="jarak">
-            <h2>Penggunaan tag Table</h2>
-        </div>
+        <h1>Selamat Datang di Website Saya</h1>
     </div>
-    <div class="menu">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+
+    <div class="topnav">
+        <a href="../index.html">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">Profil</a>
+        <a href="login.html" style="float:right">Login</a>
     </div>
-    <div class="content">
-        <div class="jarak">
-            <!-- kiri -->
-            <div class="kiri">
-                <!-- blog -->
-                <div>
-                    <table border="1">
+
+    <div class="row">
+        <div class="kolomkiri">
+            <div class="kartunama">
+                <h2>TABLE</h2>
+                <h5>Pengertian & Penggunaan Tag Table</h5>
+                <div class="gambar" style="height:400px;"> <img src="../assets/image/table.png" alt=""></div>
+                <p>Pengertian Table</p>
+                <p>Tabel HTML digunakan untuk menampilkan konten pada halaman Web, seperti tabel yang terlihat dalam
+                    buku, majalah, koran, dan sebagainya, terdiri dari kolom data diatur dalam baris.
+
+                </p>
+                <p>Cara Membuat Table</p>
+                <p>
+                    Tag untuk Membuat Tabel di HTML
+                    Ada beberapa tag yang harus diingat untuk membuat tabel di HTML:
+                    <ol>
+                        <li>Tag "thead" untuk membungkus bagian kepala tabel</li>
+                        <li>Tag "tbody" untuk membungkus bagian body dari tabel</li>
+                        <li>Tag "tr" (tabel row) untuk membuat baris</li>
+                        <li>Tag "td" (table data) untuk membuat sel</li>
+                        <li>Tag "th" (table head) untuk membuat judul pada header</li>
+                        <p>Tag yang paling penting untuk diingat adalah tag table, tr, dan td. Sementara tag yang lain adalah tambahan (opsional), boleh digunakan boleh
+                            tidak.</p>
+                    </ol>
+                    <p>Mari kita lihat contohnya :</p>
+                    <table border="1" align="center" style="text-align: center;">
                         <tr>
                             <td>Nama :</td>
                             <td>Erlan Noviar</td>
@@ -56,28 +75,45 @@
                             <td><a href="https://www.linkedin.com/in/erlan-noviar-482226284/">Linked-In</a></td>
                         </tr>
                     </table>
-                </div>
-                <div class="footer">
-                    <div class="jarak">
-                        <p>copyright © 2023. Erlan Noviar</p>
-                    </div>
-                </div>
-                <!-- end blog -->
+                </p>
+
             </div>
-            <!-- kiri -->
-            <!-- kanan -->
-            <div class="kanan">
-                <div class="jarak">
-                    <h3>CATEGORY</h3>
-                    <hr />
-                    <p><a href="Orlis.html" class="undecor">Ordered List</a></p>
-                    <p><a href="Unlis.html" class="undecor">Unordered List</a></p>
-                    <p><a href="table.html" class="undecor">Tabel</a></p>
-                    <p><a href="image.html" class="undecor">Image</a></p>
-                </div>
-            </div>
-            <!-- kanan -->
         </div>
+        <div class="kolomkanan">
+            <!-- <div class="kartunama">
+              dapat diisi untuk nanti
+            </div> -->
+            <div class="kartunama">
+                <h3>CATEGORY</h3>
+                <div class="gambar">
+                    <a href="heading.html"> Penggunaan Heading</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="image.html"> Penggunaan Tag Image</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="orlis.html"> Penggunaan Tag Ordered List</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="unlis.html"> Penggunaan Tag Unordered List</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="table.html"> Penggunaan Tag Table</a>
+                </div>
+            </div>
+            <div class="kartunama">
+                <h3>Follow Me</h3>
+                <p>Lorem ipsum dolor sit amet,</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Copyright@ Erlan Noviar-2023</h2>
     </div>
 
 </body>

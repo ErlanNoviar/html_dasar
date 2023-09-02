@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Program HTML Sederhana</title>
+    <link rel="stylesheet" href="../assets/css/style1.css">
+</head>
+
+<body>
+    <video autoplay muted controls loop="true">
+        <source src="../assets/video/video1.mp4" type="video/mp4">
+    </video>
+    <form>
+        <div class="container">
+            <center>
+                <span></span>
+                <h1> Form Pendaftaran Studi Independen 2023 - PT.Arkatama Multi Solusindo</h1>
+            </center>
+            <hr>
+            <label for="name"> Nama Lengkap </label>
+            <input type="text" name="name" placeholder="Your Name" size="15" required />
+
+            <label for="email"> E-Mail </label>
+            <br>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <div>
+                <label>
+                    Jenis Kelamin :
+                </label><br>
+                <input type="radio" value="Male" name="gender"> Laki-Laki
+                <input type="radio" value="Female" name="gender"> Perempuan
+                <input type="radio" value="Other" name="gender" checked> Other
+            </div>
+            <div>
+                <label>
+                    Program Studi :
+                    <select>
+                        <option value="TI">Teknik Informatika</option>
+                        <option value="SI">Sistem Informasi</option>
+                        <option value="HKM">Hukum</option>
+                        <option value="IK">Ilmu Komputer</option>
+                    </select>
+                </label>
+            </div>
+            <label for="Hobbi">Hobbi : </label>
+            <div>
+                
+                    <input type="checkbox" name="Hobbi" id="Hobbi">
+                    <label for="membaca"> Membaca</label>
+                    <br>
+                    <input type="checkbox" name="Hobbi" id="Hobbi">
+                    <label for="menonton"> Menonton</label>
+                    <br>
+                    <input type="checkbox" name="Hobbi" id="Hobbi">
+                    <label for="bermain"> Bermain</label>
+                    <br>
+                    <input type="checkbox" name="Hobbi" id="Hobbi">
+                    <label for="sepeda"> Bersepeda</label>
+                    <br>
+                    <input type="checkbox" name="Hobbi" id="Hobbi">
+                    <label for="game"> Bermain Game</label>
+            </div>
+            <label for="alamat">Alamat</label>
+            <textarea cols="80" rows="5" placeholder="Current Address" value="address" required></textarea>
+            
+            <br>
+            <label for="foto">Foto Diri</label>
+            <br>
+            <input type="file" name="foto" id="foto">
+            
+            <br>
+            <label for="psw-repeat"><b>Re-type Password</b></label>
+            <input type="password" placeholder="Retype Password" name="psw-repeat" required>
+            <button type="submit" class="registerbtn">Register</button>
+            <div>
+                <a href="login.html" class="masuk">Login</a>
+              </div>
+    </form>
+</body>
+
+</html>
+
+</html>

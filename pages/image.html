@@ -2,63 +2,75 @@
 <html>
 
 <head>
-    <title>Tugas 3 FSWD</title>
-    <link rel="stylesheet" href="../asset/css/style1.css" />
+    <title>Program HTML Sederhana</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
+
     <div class="header">
-        <div class="jarak">
-            <h2>Penggunaan tag Table</h2>
+        <h1>Selamat Datang di Website Saya</h1>
+    </div>
+
+    <div class="topnav">
+        <a href="../index.html">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">Profil</a>
+        <a href="login.html" style="float:right">Login</a>
+    </div>
+
+    <div class="row">
+        <div class="kolomkiri">
+            <div class="kartunama">
+                <h2>TAG IMAGE</h2>
+                <h5>Pengertian & Penggunaan HTML</h5>
+                <div class="gambar" style="height:400px;">
+                    <img src="../assets/image/html-img.png" alt="Tag HTML"></div>
+                <p>Pengertian Gambar/Img</p>
+                <p>Gambar dapat kita tambakan di HTML dengan menggunakan tag (img). Tag ini memiliki atribut wajib, yakni src. Jika kita tidak mengisi atribut src, maka gambar tidak akan ditampilkan.</p>
+                <p>Alamat URL gambar pada atribut src dapat berupa URL maupun alamat path. Lalu tag <img> harus ditutup dengan menambahkan garis miring.
+                    Contoh Penggunaan img pada HTML :</p>
+                    <img src="../assets/image/arkatama.png" alt="Arkatama" style="height: 200px;">
+                    <img src="../assets/image/github.png" alt="Github" style="height: 200px;">
+                    <img src="../assets/image/facebook.png" alt="Facebook" style="height: 200px;">
+                    <img src="../assets/image/instagram.png" alt="Facebook" style="height: 200px;">
+            </div>
+        </div>
+        <div class="kolomkanan">
+            <!-- <div class="kartunama">
+              dapat diisi untuk nanti
+            </div> -->
+            <div class="kartunama">
+                <h3>CATEGORY</h3>
+                <div class="gambar">
+                    <a href="heading.html"> Penggunaan Heading</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="image.html"> Penggunaan Tag Image</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="orlis.html"> Penggunaan Tag Ordered List</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="unlis.html"> Penggunaan Tag Unordered List</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="table.html"> Penggunaan Tag Table</a>
+                </div>
+            </div>
+            <div class="kartunama">
+                <h3>Follow Me</h3>
+                <p>Lorem ipsum dolor sit amet,</p>
+            </div>
         </div>
     </div>
-    <div class="menu">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-    <div class="content">
-        <div class="jarak">
-            <!-- kiri -->
-            <div class="kiri">
-                <!-- blog -->
-                <div class="img">
-                    <a href="https://www.instagram.com/iitsme_eno/?hl=id" class="medsos-link">
-                        <img src="../asset/images/instagram.png" alt="Instagram">
-                    </a>
-                    <a href="https://github.com/ErlanNoviar" class="medsos-link">
-                        <img src="../asset/images/github.png" alt="Github">
-                    </a>
-                    <a href="https://www.facebook.com/profile.php?id=100004780035832" class="medsos-link">
-                        <img src="../asset/images/facebook.png" alt="Facebook">
-                    </a>
-                    <a href="https://www.linkedin.com/in/erlan-noviar-482226284/" class="medsos-link">
-                        <img src="../asset/images/linked.png" alt="Link-in">
-                    </a>
-                </div>
-                <div class="footer">
-                    <div class="jarak">
-                        <p>copyright © 2023. Erlan Noviar</p>
-                    </div>
-                </div>
-                <!-- end blog -->
-            </div>
-            <!-- kiri -->
-            <!-- kanan -->
-            <div class="kanan">
-                <div class="jarak">
-                    <h3>CATEGORY</h3>
-                    <hr />
-                    <p><a href="Orlis.html" class="undecor">Ordered List</a></p>
-                    <p><a href="Unlis.html" class="undecor">Unordered List</a></p>
-                    <p><a href="table.html" class="undecor">Tabel</a></p>
-                    <p><a href="image.html" class="undecor">Image</a></p>
-                </div>
-            </div>
-            <!-- kanan -->
-        </div>
+
+    <div class="footer">
+        <h2>Copyright@ Erlan Noviar-2023</h2>
     </div>
 
 </body>

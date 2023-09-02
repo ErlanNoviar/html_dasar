@@ -2,31 +2,37 @@
 <html>
 
 <head>
-    <title>Tugas 3 FSWD</title>
-    <link rel="stylesheet" href="../asset/css/style1.css" />
+    <title>Program HTML Sederhana</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
+
     <div class="header">
-        <div class="jarak">
-            <h2>Penggunaan Unordered List</h2>
-        </div>
+        <h1>Selamat Datang di Website Saya</h1>
     </div>
-    <div class="menu">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+
+    <div class="topnav">
+        <a href="../index.html">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">Profil</a>
+        <a href="login.html" style="float:right">Login</a>
     </div>
-    <div class="content">
-        <div class="jarak">
-            <!-- kiri -->
-            <div class="kiri">
-                <!-- blog -->
-                <div class="border">
-                    <div class="jarak">
-                        <h3>Provinsi Di Indonesia</h3>
+
+    <div class="row">
+        <div class="kolomkiri">
+            <div class="kartunama">
+                <h2>UNORDERED LIST</h2>
+                <h5>Pengertian & Penggunaan Unordered List</h5>
+                <div class="gambar" style="height:400px;"> <img src="../assets/image/unordered.png" alt=""></div>
+                <p>Pengertian Unordered List</p>
+                <p>Unordered list adalah jenis list yang tidak berurutan yang ditampilkan dengan menggunakan simbol. 
+                    Unordered list digunakan untuk menampilkan daftar list yang tidak memerlukan angka pengurutan misalnya daftar OS komputer, daftar aplikasi editor html dan lain-lain.</p>
+                    <p>Cara Membuat Unordered List</p>
+                    <p>
+                        Unordered list atau list simbol dibuat dengan menggunakan tag ul. Sama dengan list sebelumnya, item-item list ini ditulis dengan menggunakan tag li yang terletak di dalam elemen ul. <br> 
+                        Contoh penggunaan Unordered List pada :
+                        <h3>Nama-Nama Provinsi Di Indonesia</h3>
                         <ul>
                             <li>Nanggroe Aceh Darussalam (Ibu Kota Banda Aceh)</li>
                             <li>Sumatera Utara (Ibu Kota Medan)</li>
@@ -67,29 +73,45 @@
                             <li>Papua Selatan (Ibu Kota Merauke)</li>
                             <li>Papua Barat Daya (Ibu Kota Sorong)</li>
                         </ul>
-                    </div>
-                </div>
-                <div class="footer">
-                    <div class="jarak">
-                        <p>copyright © 2023. Erlan Noviar</p>
-                    </div>
-                </div>
-                <!-- end blog -->
+                    </p>
+
             </div>
-            <!-- kiri -->
-            <!-- kanan -->
-            <div class="kanan">
-                <div class="jarak">
-                    <h3>CATEGORY</h3>
-                    <hr />
-                    <p><a href="Orlis.html" class="undecor">Ordered List</a></p>
-                    <p><a href="Unlis.html" class="undecor">Unordered List</a></p>
-                    <p><a href="table.html" class="undecor">Tabel</a></p>
-                    <p><a href="image.html" class="undecor">Image</a></p>
-                </div>
-            </div>
-            <!-- kanan -->
         </div>
+        <div class="kolomkanan">
+            <!-- <div class="kartunama">
+              dapat diisi untuk nanti
+            </div> -->
+            <div class="kartunama">
+                <h3>CATEGORY</h3>
+                <div class="gambar">
+                    <a href="heading.html"> Penggunaan Heading</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="image.html"> Penggunaan Tag Image</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="orlis.html"> Penggunaan Tag Ordered List</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="unlis.html"> Penggunaan Tag Unordered List</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="table.html"> Penggunaan Tag Table</a>
+                </div>
+            </div>
+            <div class="kartunama">
+                <h3>Follow Me</h3>
+                <p>Lorem ipsum dolor sit amet,</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Copyright@ Erlan Noviar-2023</h2>
     </div>
 
 </body>

@@ -1,58 +1,82 @@
 <!DOCTYPE html>
 <html>
- <head>
-      <title>Tugas 3 FSWD</title>
-      <link rel="stylesheet" href="asset/css/style1.css"/>
- </head>
- <body>
+
+<head>
+    <title>Program HTML Sederhana</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
     <div class="header">
-        <div class="jarak">
-            <h2>Artikel HTML </h2>
+        <h1>Selamat Datang di Website Saya</h1>
+    </div>
+
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">Profil</a>
+        <a href="pages/login.html" style="float:right">Login</a>
+    </div>
+
+    <div class="row">
+        <div class="kolomkiri">
+            <div class="kartunama">
+                <h2>HTML</h2>
+                <h5>Pengertian & Penggunaan HTML</h5>
+                <div class="gambar" style="height:200px;"> <img src="assets/image/html.png" alt=""></div>
+                <p>Pengertian HTML</p>
+                <p>HTML atau Hypertext Markup Language adalah bahasa markup yang digunakan untuk membuat struktur halaman website agar dapat 
+                    ditampilkan pada web browser. Jadi, HTML dapat dianalogikan sebagai pondasi awal dalam menyusun kerangka halaman web 
+                    secara terstruktur sebelum membahas terkait tampilan desain dan sisi fungsionalitas.</p>
+                    <p>Sejarah HTML</p>
+                    <p>Sejarah HTML pertama kali dibuat oleh Tim Berners-Lee yang merupakan fisikawan di lembaga penelitian CERN, Swiss. Berners-Lee mempunyai ide atau pemikiran mengenai sistem hypertext berbasis internet. Sekitar tahun 1991, Tim merilis versi HTML pertama yang di dalamnya terdalam sekitar 18 tag.
+                        Untuk sekarang, HTML mengalami beberapa pengembangan dari sisi fitur serta informasi yang disajikan hingga versi terbaru, yaitu HTML5. Setiap tahunnya, bahasa ini mempunyai tingkat popularitas yang cukup tinggi sehingga dijadikan sebagai web standard resmi di dunia pemrograman.
+                        Selanjutnya, HTML juga mengalami tahap perbaikan (maintain) dan dikembangkan oleh World Wide Web Consortium (W3C). 
+                        Pada tahun 2014, merupakan waktu dimana HTML mengalami upgrade yang cukup signifikan dan terdapat fitur semantic untuk memudahkan pengembang website dalam menyusun kode dan memberitahukan makna dari konten tersebut, sebagai contoh article, footer, dan header./p
+                <p>Fungsi HTML</p>
+                <p>Fungsi utama penggunaan HTML sendiri adalah membangun tampilan website yang telah menerapkan metode semantik untuk memudahkan setiap pengembang dalam proses development dan maintenance. 
+                    Kemudian, HTML juga dapat dikolaborasikan dengan penggunaan bahasa CSS (Cascade Style Sheet) serta JavaScript. Dimana, peran dari HTML5 berfungsi untuk menyusun kerangka dan struktur halaman website. Kemudian, CSS membantu dalam memberikan tampilan desain meliputi warna, font, outline, dan lain sebagainya. 
+                    Dan Tugas dari bahasa pemrograman JavaScript adalah memberikan sentuhan interaksi untuk memberikan pengalaman yang berbeda kepada user.</p>
+            </div>
+        </div>
+        <div class="kolomkanan">
+            <!-- <div class="kartunama">
+              dapat diisi untuk nanti
+            </div> -->
+            <div class="kartunama">
+                <h3>CATEGORY</h3>
+                <div class="gambar">
+                    <a href="pages/heading.html"> Penggunaan Heading</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="pages/image.html"> Penggunaan Tag Image</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="pages/orlis.html"> Penggunaan Tag Ordered List</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="pages/unlis.html"> Penggunaan Tag Unordered List</a>
+                </div>
+                <br>
+                <div class="gambar">
+                    <a href="pages/table.html"> Penggunaan Tag Table</a>
+                </div>
+            </div>
+            <div class="kartunama">
+                <h3>Follow Me</h3>
+                <p>Lorem ipsum dolor sit amet,</p>
+            </div>
         </div>
     </div>
-    <div class="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/about.html">About</a></li>
-            <li><a href="pages/contact.html">Contact</a></li>
-        </ul>
-    </div>
-    <div class="content">
-        <div class="jarak">
-            <!-- kiri -->
-            <div class="kiri">
-                <!-- blog -->
-                <div class="border">
-                    <div class="jarak">
-                        <h3>Pengertian HTML</h3>
-                        <p>HTML atau Hypertext Markup Language adalah bahasa markup yang digunakan untuk membuat struktur halaman website agar dapat ditampilkan pada web browser. Jadi, HTML dapat dianalogikan sebagai pondasi awal dalam menyusun kerangka halaman web secara terstruktur sebelum membahas terkait tampilan desain dan sisi fungsionalitas.</p>
-                        <h3>Fungsi HTML</h3>
-                        <p>Fungsi utama penggunaan HTML sendiri adalah membangun tampilan website yang telah menerapkan metode semantik untuk memudahkan setiap pengembang dalam proses development dan maintenance. Kemudian, HTML juga dapat dikolaborasikan dengan penggunaan bahasa CSS (Cascade Style Sheet) serta JavaScript.
-                          Dimana, peran dari HTML5 berfungsi untuk menyusun kerangka dan struktur halaman website. Kemudian, CSS membantu dalam memberikan tampilan desain meliputi warna, font, outline, dan lain sebagainya. Dan Tugas dari bahasa pemrograman JavaScript adalah memberikan sentuhan interaksi untuk memberikan pengalaman yang berbeda kepada user.</p>
-                    </div>
-                </div>
-                <!-- end blog -->
-                <!-- blog -->
-            </div>
-            <!-- kiri -->
-            <!-- kanan -->
-            <div class="kanan">
-                <div class="jarak">
-                    <h3>CATEGORY</h3>
-                    <hr/>
-                    <p><a href="pages/Orlis.html" class="undecor">Ordered List</a></p>
-                    <p><a href="pages/Unlis.html" class="undecor">Unordered List</a></p>
-                    <p><a href="pages/table.html" class="undecor">Tabel</a></p>
-                    <p><a href="pages/image.html" class="undecor">Image</a></p>
-                </div>
-            </div>
-            <!-- kanan -->
-        </div>
-    </div>
+
     <div class="footer">
-        <div class="jarak">
-            <p>copyright © 2023. Erlan Noviar</p>
-        </div>
+        <h2>Copyright@ Erlan Noviar-2023</h2>
     </div>
+
 </body>
+
 </html>
