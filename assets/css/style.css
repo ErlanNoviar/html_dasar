@@ -147,9 +147,13 @@
   background-color: #6514ac;
 }
   
- @media screen and (max-width: 600px) {
-    .card {
-       width: 100%;
-    }
- }
+/*Responsive*/
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
+}
  

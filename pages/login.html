@@ -2,37 +2,38 @@
 <html lang="en">
 
 <head>
-    <title>Program HTML Sederhana</title>
-    <link rel="stylesheet" href="../assets/css/style1.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="../assets/css/logsign.css" />
 </head>
 
 <body>
-    <video autoplay muted controls loop="true">
-        <source src="../assets/video/video1.mp4" type="video/mp4">
-    </video>
-    <form>
-        <div class="container">
-            <center>
-                <span></span>
-                <h1> Login Studi Independen 2023 - PT.Arkatama Multi Solusindo</h1>
-            </center>
-            <hr>
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" required>
+    <section class="container">
+        <span></span>
+        <header>Login Studi Independen 2023 <br> PT.Arkatama Multi Solusindo</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="E-mail Anda" required />
+            </div>
 
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-
-            <label for="psw-repeat"><b>Re-type Password</b></label>
-            <input type="password" placeholder="Retype Password" name="psw-repeat" required>
-            <button type="submit" class="masuk">Login</button>
-            <div>
-            <a href="register.html" class="registerbtn">Registrasi</a>
-            <a href="../index.html" class="registerbtn">Home</a>
-          </div>
-    </form>
+            <div class="input-box">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password Anda" required />
+            </div>
+            <button>Submit</button>
+            <div class="masuk">
+                <h5>Don't have an account? <a href="register.html">Register Now</a></h5>
+                <h5><a href="../index.html">Masuk Ke HOME</a></h5>
+            </div>
+            <video autoplay muted controls loop="true" class="video-container">
+                <source src="../assets/video/video1.mp4" type="video/mp4">
+            </video>
+        </form>
+    </section>
 </body>
-
-</html>
 
 </html>
