@@ -11,6 +11,12 @@ const products = [
         price: "$2,099.00",
         imageSrc: "../assets/image/product/A.png"
     },
+    {
+        name: "Cougar-Senna",
+        description: "Desktop Monitor",
+        price: "$1,599.00",
+        imageSrc: "../assets/image/product/cougar.png"
+    },
     
 ];
 
